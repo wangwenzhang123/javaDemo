@@ -18,4 +18,9 @@ public class HelloController {
 
         return "我 的第一个Java后台"+data;
     }
+    @RequestMapping(value = "/getUpload",method = RequestMethod.POST)
+    public String getUpload(@RequestBody String data){
+
+        return "我 的第一个Java后台"+data;
+    }
 }
